@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+body{
+    
+    background-image: url("/weather.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.box{
+    height: 400px;
+    width: 550px;
+    background-color: rgb(42, 108, 165);
+    border-radius: 10%;
+}
+.box h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.box h4{
+    margin-top: 40px;
+    text-align: center;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.convert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+.result{
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-top: 15px;
+}
